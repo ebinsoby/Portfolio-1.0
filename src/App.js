@@ -61,39 +61,23 @@ function App() {
           <h1>About me</h1>
           <div className="container text-left pt-3">
             <p className="font-weight-normal">
-              I am a <b class="font-weight-bold">Senior Software Engineer</b>{" "}that has experience designing and developing{" "}
-              <b class="font-weight-bold">web applications, user-interfaces</b>{" "}
-              and websites from scratch to deployment utilizing
-              <b class="font-weight-bold">
-                {" "}
-                React, JavaScript ES6+, HTML5, CSS3, Angular, TypeScript, RESTful APIs, Material-UI,
-                Responsive Design, Bootstrap, StencilJS
-              </b>{" "}
-              and other technologies. I also have experience designing and developing <b class="font-weight-bold">design systems</b>.
+              Passionate <b class="font-weight-bold">Senior Software Engineer</b> with a demonstrated
+              history of working in Products firms, Consulting firms & Startups
+              with 6 years of software development experience. Proficient in
+              translating designs & wireframes into high quality code and
+              writing interface code with JavaScript, React.js & Vue.js
+              workflows.
             </p>
             <p className="font-weight-normal">
-              I not only have Frontend Engineering knowledge but I also have created user interfaces and experiences during my time as a product designer. I have a great
-              set of soft skills and an arts background that allow me
-              to create functional and visually pleasing interfaces that empathize with and 
-              prioritize the user experience. I am eager to join a team where I can
-              put both my technical, design and people skills to work.
+              I not only have Frontend Engineering knowledge but I also have
+              created user interfaces and experiences during career. I have a great set of soft skills and design sense that allow me to create functional and visually
+              pleasing interfaces that empathize with and prioritize the user
+              experience. I am eager to join a team where I can put both my
+              technical, design and people skills to work.
             </p>
             <p className="font-weight-normal">
-              I was born and raised in Peru and moved to the U.S. in 2012 with
-              my family.
-            </p>
-            <p className="font-weight-normal">
-              I first started coding after taking an intro to HTML and CSS class
-              at General Assembly, and I fell in love immediately.
-            </p>
-            <p className="font-weight-normal">
-              Fast forward to today, I am so grateful that I get to do
-              what I love everyday and get beyond excited at the fact that
-              people from all over the world get to see and utilize the tools I
-              build.
-            </p>
-            <p className="font-weight-normal">
-              I am looking forward to being part of a team where I can continue to grow my development and design skills.
+              I am looking forward to being part of a team where I can continue
+              to grow my development and design skills.
             </p>
             {/* <div className="text-center"> */}
             <img src={aboutImg} className="mx-auto d-block w-25 h-100" />
@@ -382,7 +366,8 @@ function App() {
             <p className="font-weight-normal p-3 m-5">
               You have learned a bit more about me and seen my most relevant
               skills and work experience. Maybe you are wondering if I would be
-              a good culture fit at your company or if I am a good team player. <br />
+              a good culture fit at your company or if I am a good team player.{" "}
+              <br />
               Let's connect and find out!
             </p>
             <div className="row p-3">
