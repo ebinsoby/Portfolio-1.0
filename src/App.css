@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  line-height: 1.7em;
+}
+
+.navbar-space {
+  height: 80px;
+}
+
+/*Landing page */
+.profile-picture {
+  height: 35vmin;
+  margin: 5%;
+}
+
+.App-header {
+  background-image: url("./assets/ManhattahnB&W.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.intro {
+  height: 100%;
+  padding: 5%;
+}
+
+.intro-title {
+  color: white;
+  text-transform: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro {
+    padding-top: 15%;
+  }
+
+  .profile-picture {
+    height: 45vmin;
+    margin: 5%;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .intro {
+    padding-top: 25%;
+  }
+}
+
+/* About */
+.about {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding-top: 3%;
+}
+
+.dev-icon {
+  width: 150px;
+}
+
+.picture {
+  height: 35vmin;
+}
+
+/* Experience */
+.experience {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 3%;
+  min-height: 100vh;
+}
+
+.experience h1 {
+  color: #ffffff;
+}
+
+.project-img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+/* Projects */
+.skills {
+  background-color: #ffffff;
+  padding: 3%;
+  min-height: 100vh;
+}
+
+/* Contact */
+.contact {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 3% 10% 10%;
+  min-height: 85vh;
+}
+
+.contact h1 {
+  color: #ffffff;
+}
+
+.contact h6 {
+  color: #ffffff;
+}
