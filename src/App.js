@@ -13,12 +13,12 @@ import storybook from "./assets/storybook.png";
 import typescript from "./assets/typescript.png";
 import { FaBitbucket } from "react-icons/fa";
 import { SiAdobexd } from "react-icons/si";
-import sp from "./assets/sp.png";
-import f23 from "./assets/f23.png";
-import f23dev from "./assets/f23-dev.png";
-import GestureLife from "./assets/GestureLife.png";
-import Distanceware from "./assets/Distanceware.png";
-import Eleven22 from "./assets/Eleven22.png";
+import mcap from "./assets/MCAP_mockup.png";
+import pbs from "./assets/PBS_mockup.png";
+import alertdriving from "./assets/Alertdriving_mockup.png";
+import fc from "./assets/FC_mockup.png";
+import CC from "./assets/CC_mockup.png";
+import wipro from "./assets/Wipro_mockup.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -100,7 +100,7 @@ function App() {
         </div>
       </section>
       {/* Experience */}
-      {/* <section id="experience">
+      <section id="experience">
         <div className="navbar-space"></div>
         <div className="experience">
           <h1>Work experience</h1>
@@ -109,30 +109,30 @@ function App() {
             <div className="row">
             <div className="col-md-4 mb-3">
                 <div className="card text-dark h-100">
-                  <h3 className="card-header">StackPath</h3>
+                  <h3 className="card-header">MCAP</h3>
                   <img
                     className="project-img"
-                    src={sp}
+                    src={mcap}
                     alt="Card image"
                   />
                   <div className="card-body">
-                    <h5 class="card-title">Cloud Computing Start-up</h5>
+                    <h5 class="card-title"> Capital Markets | Mortgage Finance</h5>
                     <h6 class="card-subtitle text-muted">
-                      My role: UI Developer (UX Team)
+                      My role: Senior Software Engineer
                     </h6>
                   </div>
                   <div className="card-body">
                     <p className="font-weight-normal">
-                    StackPath is a cloud computing and services provider that puts its locations in densely populated markets. At StackPath, I helped design and build our very own Design System, "Cosmos". The intention behind Cosmos was to unify and expedite the software development process among all different engineering teams by creating custom, reusable, accesible and fully-functional React and web components.
+                    MCAP is Canada’s largest independent Mortgage Finance Company. MCAP originates, trades, securitizes and services residential, construction and commercial assets on behalf of institutional investors.
                     </p>
                   </div>
                   <div className="card-footer">
                     <a
-                      href="https://www.stackpath.com/"
+                      href="https://www.mcap.com/"
                       target="_blank"
                       class="card-link"
                     >
-                      StackPath
+                      MCAP
                     </a>
                   </div>
                 </div>
@@ -140,30 +140,30 @@ function App() {
 
               <div className="col-md-4 mb-3">
                 <div className="card text-dark h-100">
-                  <h3 className="card-header">Feature 23</h3>
+                  <h3 className="card-header">alertdriving</h3>
                   <img
                     className="project-img"
-                    src={f23dev}
+                    src={alertdriving}
                     alt="Card image"
                   />
                   <div className="card-body">
-                    <h5 class="card-title">Software Engineering Firm</h5>
+                    <h5 class="card-title">Driver Risk Management</h5>
                     <h6 class="card-subtitle text-muted">
                       My role: Frontend Developer
                     </h6>
                   </div>
                   <div className="card-body">
                     <p className="font-weight-normal">
-                    Feature[23] is a full-service product development firm. During my time there, I worked alongside several different engineering teams, implementing changes and features that ranged from compelte redesigns to creating full-fledged applications from scratch in order to obtain and maintain new business from an existing customer (large national product distributor).
+                    alertdriving is the global leader in driver risk management. alertdriving has trained millions of professional drivers around the world using FleetDefense, the industry's only behaviour-based risk monitoring solution.
                     </p>
                   </div>
                   <div className="card-footer">
                     <a
-                      href="https://www.feature23.com/"
+                      href="https://www.alertdriving.info/"
                       target="_blank"
                       class="card-link"
                     >
-                      Feature23
+                      alertdriving®
                     </a>
                   </div>
                 </div>
@@ -171,30 +171,30 @@ function App() {
 
               <div className="col-md-4 mb-3">
                 <div className="card text-dark h-100">
-                  <h3 className="card-header">Feature23 (Design Work)</h3>
+                  <h3 className="card-header">PowerBand Solutions</h3>
                   <img
                     className="project-img"
-                    src={f23}
+                    src={pbs}
                     alt="Card image"
                   />
                   <div className="card-body">
-                    <h5 class="card-title">Software Engineering Firm</h5>
+                    <h5 class="card-title">Fintech | Automotive Industry</h5>
                     <h6 class="card-subtitle text-muted">
-                      My role: Jr. Product Designer
+                      My role: Frontend Developer
                     </h6>
                   </div>
                   <div className="card-body">
                     <p className="font-weight-normal">
-                    Additonally, during my time at Feature[23], I worked under the Chief Product Designer and redesigned a large existing application from scratch and implemented those updates in code. I also assisted all other engineering teams with design improves and updates to components as well participated in disciovery calls with potential new clients in order to pinpoint their software needs and gain their business.
+                    PowerBand Solutions Inc., listed on the TSX Venture Exchange and the OTCQB markets, is a fintech provider disrupting the automotive industry. PowerBand’s integrated, cloud-based transaction platform facilitates transactions amongst consumers, dealers, funders, and manufacturers (OEMs). It enables them to buy, sell, trade, finance, and lease new and used, electric and non-electric vehicles, on any phone, tablet or PC connected to the internet. PowerBand’s transaction platform – being trademarked under DRIVRZ™ – is being made available across North American and global markets.
                     </p>
                   </div>
                   <div className="card-footer">
                     <a
-                      href="https://coe22.com/"
+                      href="https://powerbandsolutions.com/"
                       target="_blank"
                       class="card-link"
                     >
-                      Website
+                      PowerBand Solutions Inc. (TSXV:PBX) (OTCQB:PWWBF)
                     </a>
                   </div>
                 </div>
@@ -203,106 +203,90 @@ function App() {
             <div className="row">
               <div className="col-md-4 mb-3">
                 <div className="card text-dark h-100">
-                  <h3 className="card-header">Gesture Life</h3>
+                  <h3 className="card-header">FiComm Technologies</h3>
                   <img
                     className="project-img"
-                    src={GestureLife}
+                    src={fc}
                     alt="Card image"
                   />
                   <div className="card-body">
-                    <h5 class="card-title">Web Application</h5>
+                    <h5 class="card-title">IoT</h5>
                     <h6 class="card-subtitle text-muted">
-                      My role: React Developer
+                      My role: Software Engineer
                     </h6>
                   </div>
                   <div className="card-body">
                     <p className="font-weight-normal">
-                      Gesture Life is a dashboard/internal workflow tool for
-                      Gesture's 75+ employees to manage their "life" at Gesture.
-                      They have the ability to view orders that need to be
-                      delivered, add products to the app, add coupons, connect
-                      runners and much more. During my time at Gesture I was
-                      part of the team of engineers who built this React web
-                      application from design to deployment.
+                    A manufacturer specializing in IoT products dedicated to improving health and safety and reducing environmental impact.
                     </p>
                   </div>
                   <div className="card-footer">
                     <a
-                      href="https://www.yourgesture.com/"
+                      href="https://ficomm.ca/"
                       target="_blank"
                       class="card-link"
                     >
-                      Gesture
+                      FiComm Technologies
                     </a>
                   </div>
                 </div>
               </div>
               <div className="col-md-4 mb-3">
                 <div className="card text-dark h-100">
-                  <h3 className="card-header">Distanceware</h3>
+                  <h3 className="card-header">Cambrian College</h3>
                   <img
                     className="project-img"
-                    src={Distanceware}
+                    src={CC}
                     alt="Card image"
                   />
                   <div className="card-body">
-                    <h5 class="card-title">Responsive Web Application</h5>
+                    <h5 class="card-title">College of applied arts and technology</h5>
                     <h6 class="card-subtitle text-muted">
-                      My role: React Developer
+                      My role: Peer Tutor
                     </h6>
                   </div>
                   <div className="card-body">
                     <p className="font-weight-normal">
-                      Distanceware is a React web application that matches users
-                      to online degree programs from accredited institutions
-                      accross the U.S. During my time as a React Developer at
-                      Distanceware, I have heavily utilized my skills in React,
-                      JavaScript, HTML, CSS, Material-UI and visual design.
+                    Cambrian College is a college of applied arts and technology in Greater Sudbury, Ontario, Canada. Established in 1967, and funded by the province of Ontario.
                     </p>
                   </div>
                   <div className="card-footer">
                     <a
-                      href="https://www.linkedin.com/company/distanceware/"
+                      href="https://cambriancollege.ca/"
                       target="_blank"
                       class="card-link"
                     >
-                      LinkedIn
+                      Cambrian College
                     </a>
                   </div>
                 </div>
               </div>
               <div className="col-md-4 mb-3">
                 <div className="card text-dark h-100">
-                  <h3 className="card-header">Eleven22</h3>
+                  <h3 className="card-header">Wipro</h3>
                   <img
                     className="project-img"
-                    src={Eleven22}
+                    src={wipro}
                     alt="Card image"
                   />
                   <div className="card-body">
-                    <h5 class="card-title">Web and mobile site</h5>
+                    <h5 class="card-title">Technology services and Consulting</h5>
                     <h6 class="card-subtitle text-muted">
-                      My role: Frontend Developer
+                      My role: Project Engineer
                     </h6>
                   </div>
                   <div className="card-body">
                     <p className="font-weight-normal">
-                      The Church of Eleven22 is one of the fastest growing in
-                      the country. Across its six (soon to be 7) campuses, close
-                      to 12,000 people attend Sunday services and thousands more
-                      attend online. My role at CoE22 consisted of maintaining
-                      and refactoring an existing 50+ page codebase as well as
-                      participating in the full lifecycle of design, development
-                      and deployment of new projects.
+                    Wipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) is a leading technology services and consulting company focused on building innovative solutions that address clients’ most complex digital transformation needs.
                     </p>
                   </div>
                   <div className="card-footer">
                     <a
-                      href="https://coe22.com/"
+                      href="https://www.wipro.com/"
                       target="_blank"
                       class="card-link"
                     >
-                      Website
+                      Wipro
                     </a>
                   </div>
                 </div>
@@ -310,7 +294,7 @@ function App() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       {/* Projects */}
       <section id="skills">
         <div className="navbar-space"></div>
