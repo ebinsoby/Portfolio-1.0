@@ -24,6 +24,7 @@ import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
+import { IoIosHeart } from "react-icons/io";
 import aboutImg from "./assets/computerDraw.png";
 import "./App.css";
 
@@ -394,7 +395,7 @@ function App() {
         </div>
         <div class="card-footer text-muted bg-primary">
           <h6 className="text-white">
-            Made with <FaReact size={30} /> by Ebin Soby.
+            Made with <IoIosHeart size={20} /> by Ebin Soby.
           </h6>
         </div>
       </section>
