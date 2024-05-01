@@ -10,7 +10,7 @@ export default function Navbar() {
       <button
         className="navbar-toggler dropdown"
         type="button"
-        data-toggle="dropdown"
+        data-toggle="collapse"
         data-target="#navbarColor01"
         aria-controls="navbarColor01"
         aria-expanded="false"
@@ -27,11 +27,11 @@ export default function Navbar() {
               <span className="sr-only">(current)</span>
             </a>
           </li>
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <a className="nav-link" href="#experience">
               Experience
             </a>
-          </li> */}
+          </li>
           <li className="nav-item">
             <a className="nav-link" href="#skills">
              Skills
